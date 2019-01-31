@@ -18,7 +18,7 @@
     <bean id="oracleToIgniteSync" class="startup.ServerNodeSpringStartup" />
     <task:scheduler id="syncScheduler" pool-size="10"/>
 	<task:scheduled-tasks scheduler="syncScheduler">
-		<task:scheduled ref="oracleToIgniteSync" method="loadCaches" initial-delay="10000" fixed-delay="5000"/>
+		<task:scheduled ref="oracleToIgniteSync" method="loadCaches" initial-delay="60000" fixed-delay="5000"/>
 	</task:scheduled-tasks>
 
     <!-- Data source beans will be initialized from external properties file. -->
