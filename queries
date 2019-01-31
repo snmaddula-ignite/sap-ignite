@@ -1,0 +1,5 @@
+INSERT INTO "SapStaffCache"."SAP_STAFF" (CDS_STAFF_ID, GLOBAL_STAFF_ID, RECORD_VERSION, BRID)
+	VALUES ('1', '1', '1', '1');
+	
+
+	
